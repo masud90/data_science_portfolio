@@ -1,0 +1,3 @@
+Missing values handled: Filled with mean
+Outliers handled: Age column filtered between -2.0 and 70.0
+Inconsistencies handled: Standardized 'gender' column
