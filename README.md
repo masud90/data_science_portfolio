@@ -17,25 +17,25 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 ## Python Projects
 
 ### 1. Data Cleaning
-#### Project: [Customer Data Cleaning](https://github.com/masud90/data_science_portfolio/tree/main/01%20Data%20Cleaning/Python/Data%20cleaning)
+#### Project: [Customer Data Cleaning](https://github.com/masud90/data_science_portfolio/blob/main/01%20Data%20Cleaning/Python/Data%20cleaning/Python%20data%20cleaning.ipynb)
 - **Objective**: Clean and preprocess raw customer data to make it suitable for analysis.
 - **Tools**: Python, Pandas, NumPy
 - **Description**: Handle missing values, outliers, and inconsistencies in a customer dataset. Document each step of the cleaning process.
 
-#### Project: [Web Scraped Data Cleaning](https://github.com/masud90/data_science_portfolio/tree/main/01%20Data%20Cleaning/Python/Web%20scraped%20data%20cleaning)
+#### Project: [Web Scraped Data Cleaning](https://github.com/masud90/data_science_portfolio/blob/main/01%20Data%20Cleaning/Python/Web%20scraped%20data%20cleaning/Python%20Web%20Scraped%20Data%20Cleaning.ipynb)
 - **Objective**: Clean and organize data scraped from the web.
 - **Tools**: Python, BeautifulSoup, Scrapy, Pandas
 - **Description**: Scrape data from a website, then clean and format it for analysis. Include handling of HTML tags, special characters, and converting data types.
 
 ### 2. Exploratory Data Analysis (EDA)
-#### Project: [EDA on Movie Data](https://github.com/masud90/data_science_portfolio/tree/main/02%20Exploratory%20Data%20Analysis%20(EDA)/Python/EDA%20on%20movie%20data)
+#### Project: [EDA on Movie Data](https://github.com/masud90/data_science_portfolio/blob/main/02%20Exploratory%20Data%20Analysis%20(EDA)/Python/EDA%20on%20movie%20data/Python%20EDA%20on%20movie%20data.ipynb)
 - **Objective**: Perform exploratory data analysis on a dataset of movies.
-- **Tools**: Python, Pandas, Matplotlib, Seaborn
+- **Tools**: Python, Pandas, Matplotlib, Seaborn, Numpy
 - **Description**: Analyze movie data to find trends, correlations, and insights. Visualize distributions, relationships, and summary statistics.
 
-#### Project: EDA on Sales Data
+#### Project: [EDA on Sales Data](https://github.com/masud90/data_science_portfolio/tree/main/02%20Exploratory%20Data%20Analysis%20(EDA)/Python/EDA%20on%20sales%20data/.ipynb_checkpoints)
 - **Objective**: Explore a sales dataset to understand sales trends and patterns.
-- **Tools**: Python, Pandas, Matplotlib, Seaborn
+- **Tools**: Python, Pandas, Matplotlib, Seaborn, plotly
 - **Description**: Analyze sales data to uncover seasonal trends, top-selling products, and customer segments. Visualize findings with charts and graphs.
 
 ### 3. Regression Analysis
