@@ -17,18 +17,18 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 ## Python Projects
 
 ### 1. Data Cleaning
-#### Project: Customer Data Cleaning
+#### Project: [Customer Data Cleaning](https://github.com/masud90/data_science_portfolio/tree/main/01%20Data%20Cleaning/Python/Data%20cleaning)
 - **Objective**: Clean and preprocess raw customer data to make it suitable for analysis.
 - **Tools**: Python, Pandas, NumPy
 - **Description**: Handle missing values, outliers, and inconsistencies in a customer dataset. Document each step of the cleaning process.
 
-#### Project: Web Scraped Data Cleaning
+#### Project: [Web Scraped Data Cleaning](https://github.com/masud90/data_science_portfolio/tree/main/01%20Data%20Cleaning/Python/Web%20scraped%20data%20cleaning)
 - **Objective**: Clean and organize data scraped from the web.
 - **Tools**: Python, BeautifulSoup, Scrapy, Pandas
 - **Description**: Scrape data from a website, then clean and format it for analysis. Include handling of HTML tags, special characters, and converting data types.
 
 ### 2. Exploratory Data Analysis (EDA)
-#### Project: EDA on Movie Data
+#### Project: [EDA on Movie Data](https://github.com/masud90/data_science_portfolio/tree/main/02%20Exploratory%20Data%20Analysis%20(EDA)/Python/EDA%20on%20movie%20data)
 - **Objective**: Perform exploratory data analysis on a dataset of movies.
 - **Tools**: Python, Pandas, Matplotlib, Seaborn
 - **Description**: Analyze movie data to find trends, correlations, and insights. Visualize distributions, relationships, and summary statistics.
