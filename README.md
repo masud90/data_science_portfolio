@@ -44,7 +44,7 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 - **Tools**: Python, Pandas, Scikit-Learn, Matplotlib
 - **Description**: Build and evaluate linear and polynomial regression models to predict house prices based on various features.
 
-#### Project: Car Price Prediction
+#### Project: [Car Price Prediction](https://github.com/masud90/data_science_portfolio/blob/main/03%20Regression%20Analysis/Python/Car%20price/Car%20Price%20Prediction.ipynb)
 - **Objective**: Predict car prices based on various attributes.
 - **Tools**: Python, Pandas, Scikit-Learn, Matplotlib
 - **Description**: Use multiple regression models to predict car prices. Evaluate model performance and interpret the coefficients.
