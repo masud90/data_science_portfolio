@@ -39,7 +39,7 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 - **Description**: Analyze sales data to uncover seasonal trends, top-selling products, and customer segments. Visualize findings with charts and graphs.
 
 ### 3. Regression Analysis
-#### Project: House Price Prediction
+#### Project: [House Price Prediction](https://github.com/masud90/data_science_portfolio/blob/main/03%20Regression%20Analysis/Python/House%20price/Predicting%20house%20prices.ipynb)
 - **Objective**: Predict house prices using regression techniques.
 - **Tools**: Python, Pandas, Scikit-Learn, Matplotlib
 - **Description**: Build and evaluate linear and polynomial regression models to predict house prices based on various features.
