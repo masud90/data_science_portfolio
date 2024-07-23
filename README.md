@@ -50,7 +50,7 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 - **Description**: Use multiple regression models to predict car prices. Evaluate model performance and interpret the coefficients.
 
 ### 4. Classification Projects
-#### Project: Customer Churn Prediction
+#### Project: [Customer Churn Prediction](https://github.com/masud90/data_science_portfolio/blob/main/04%20Classification%20Projects/Python/Customer%20churn/Customer%20churn%20prediction.ipynb)
 - **Objective**: Predict customer churn using classification algorithms.
 - **Tools**: Python, Pandas, Scikit-Learn, Matplotlib
 - **Description**: Build and evaluate classification models (logistic regression, decision trees, etc.) to predict if a customer will churn based on historical data.
