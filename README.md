@@ -55,10 +55,10 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 - **Tools**: Python, Pandas, Scikit-Learn, Matplotlib
 - **Description**: Build and evaluate classification models (logistic regression, decision trees, etc.) to predict if a customer will churn based on historical data.
 
-#### Project: Spam Email Detection
+#### Project: [Spam Email Detection](https://github.com/masud90/data_science_portfolio/blob/main/04%20Classification%20Projects/Python/Spam%20email%20detection/Spam%20email%20detection.ipynb)
 - **Objective**: Classify emails as spam or not spam.
-- **Tools**: Python, Pandas, Scikit-Learn, NLTK
-- **Description**: Use natural language processing (NLP) and machine learning to build a spam detection model. Evaluate its accuracy and precision.
+- **Tools**: Python, Pandas, Scikit-Learn
+- **Description**: Use XGBoost classifer in machine learning to build a spam detection model. Evaluate its accuracy and precision.
 
 ### 5. Clustering Projects
 #### Project: Customer Segmentation
