@@ -72,7 +72,7 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 - **Description**: Use Apriori algorithm to find frequent itemsets and association rules in transaction data. Visualize the results.
 
 ### 6. Time Series Analysis
-#### Project: Stock Price Prediction
+#### Project: [Stock Price Prediction](https://github.com/masud90/data_science_portfolio/blob/main/06%20Time%20Series%20Analysis/Python/Stock%20Price%20Prediction/Stock%20price%20prediction%20in%20python.ipynb)
 - **Objective**: Forecast future stock prices using time series analysis.
 - **Tools**: Python, Pandas, Statsmodels, Matplotlib
 - **Description**: Use ARIMA, SARIMA, or LSTM models to predict stock prices. Evaluate model accuracy with metrics like RMSE.
