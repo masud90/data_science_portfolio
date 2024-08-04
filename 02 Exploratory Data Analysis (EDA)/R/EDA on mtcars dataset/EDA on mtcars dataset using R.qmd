@@ -1,24 +1,15 @@
 ---
 title: "EDA and Data Cleaning on the `mtcars` Dataset"
 author: "Masud Rahman"
+thanks: https://masud90.github.io/, https://x.com/masudtweets/
 date: "2024-08-03"
 format:
-  html:
+  pdf:
     toc: true
-    toc-location: left
-    toc-depth: 3
-    other-links:
-      - text: Portfolio Website
-        href: https://masud90.github.io/
-        icon: github
-        rel: noopener noreferrer
-        target: _blank
-      - text: Twitter
-        href: https://x.com/masudtweets/
-        icon: twitter-x
-        rel: noopener noreferrer
-        target: _blank
-number-sections: true
+    lof: true
+    number-sections: true
+    documentclass: scrartcl
+    papersize: a4
 ---
 
 ```{r setup, include=FALSE}
@@ -33,26 +24,26 @@ library(GGally)
 library(reshape2)
 ```
 
-## Introduction
+# Introduction
 
 The `mtcars` dataset is a well-known dataset in R that contains data extracted from the 1974 Motor Trend US magazine. The dataset comprises various automobile design and performance aspects for 32 cars, including miles per gallon, number of cylinders, horsepower, weight, and more. In this report, we will perform data cleaning and exploratory data analysis (EDA) to uncover the underlying patterns in the data.
 
-### Load the mtcars dataset and Inspect the first few rows of the dataset
+## Load the mtcars dataset and Inspect the first few rows of the dataset
 
 ```{r}
 data("mtcars")
 head(mtcars)
 ```
 
-### Summary statistics
+## Summary statistics
 
 ```{r}
 summary(mtcars)
 ```
 
-## Pre-processing
+# Pre-processing
 
-### Check for missing values in the dataset
+## Check for missing values in the dataset
 
 ```{r}
 missing_values <- sum(is.na(mtcars))
@@ -63,13 +54,13 @@ if (missing_values == 0) {
 }
 ```
 
-### Inspect the data types of all columns
+## Inspect the data types of all columns
 
 ```{r}
 str(mtcars)
 ```
 
-### Convert 'cyl', 'vs', 'am', 'gear', and 'carb' to factors for categorical analysis
+## Convert numerical features to factors for categorical analysis
 
 ```{r}
 mtcars$cyl <- as.factor(mtcars$cyl)
@@ -79,58 +70,54 @@ mtcars$gear <- as.factor(mtcars$gear)
 mtcars$carb <- as.factor(mtcars$carb)
 ```
 
-### Check the structure again to confirm data type changes
+## Check the structure again to confirm data type changes
 
 ```{r}
 str(mtcars)
 ```
 
-## Exploratory Data Analysis
+# Exploratory Data Analysis
 
-### Histogram: Miles per Gallon
+## Histogram: Miles per Gallon
 
 ```{r}
-#| fig-cap: "Figure 1: Histogram showing the distribution of miles per gallon (mpg) across the cars."
+#| fig-cap: "Histogram showing the distribution of miles per gallon (mpg) across the cars."
 ggplot(mtcars, aes(x = mpg)) +
   geom_histogram(binwidth = 2, fill = "skyblue", color = "black") +
-  labs(title = "Distribution of Miles Per Gallon (mpg)", 
-       x = "Miles Per Gallon", y = "Frequency")
+  labs(x = "Miles Per Gallon", y = "Frequency")
 ```
 
-### Boxplot of MPG by Number of Cylinders
+## Boxplot of MPG by Number of Cylinders
 
 ```{r}
-#| fig-cap: "Figure 2: Boxplot depicting the variation in miles per gallon (mpg) and cylinders."
+#| fig-cap: "Boxplot depicting the variation in miles per gallon (mpg) and cylinders."
 ggplot(mtcars, aes(x = cyl, y = mpg, fill = cyl)) +
   geom_boxplot() +
   scale_fill_brewer(palette = "Set3") +
-  labs(title = "Boxplot of MPG by Number of Cylinders", 
-       x = "Number of Cylinders", y = "Miles Per Gallon")
+  labs(x = "Number of Cylinders", y = "Miles Per Gallon")
 ```
 
-### Scatter Plot of Horsepower vs. Miles Per Gallon
+## Scatter Plot of Horsepower vs. Miles Per Gallon
 
 ```{r}
-#| fig-cap: "Figure 3: Scatter plot showing the relationship between horsepower and miles per gallon (mpg)."
+#| fig-cap: "Scatter plot showing the relationship between horsepower and miles per gallon (mpg)."
 ggplot(mtcars, aes(x = hp, y = mpg)) +
   geom_point() +
   geom_smooth(method = "lm", color = "darkblue", se = FALSE) +
-  labs(title = "Horsepower vs Miles Per Gallon", 
-       x = "Horsepower", y = "Miles Per Gallon")
+  labs(x = "Horsepower", y = "Miles Per Gallon")
 ```
 
-### Pairwise Plot of All Variables
+## Pairwise Plot of All Variables
 
 ```{r}
-#| fig-cap: "Figure 4: Pairwise plot illustrating the relationships between all numeric variables."
-ggpairs(mtcars, columns = 1:7, ggplot2::aes(color = cyl)) +
-  labs(title = "Pairwise Plot of All Variables")
+#| fig-cap: "Pairwise plot illustrating the relationships between all numeric variables."
+ggpairs(mtcars, columns = 1:7, ggplot2::aes(color = cyl))
 ```
 
-### Correlation Heatmap
+## Correlation Heatmap
 
 ```{r}
-#| fig-cap: "Figure 5: Heatmap showing the Pearson correlation coefficients."
+#| fig-cap: "Heatmap showing the Pearson correlation coefficients."
 # Select numeric columns
 mtcars_numeric <- mtcars %>%
   select_if(is.numeric)
@@ -150,7 +137,5 @@ ggplot(cor_melted, aes(Var1, Var2, fill = value)) +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, vjust = 1, 
                                    size = 12, hjust = 1)) +
-  coord_fixed() +
-  labs(title = "Correlation Heatmap")
-
+  coord_fixed()
 ```
