@@ -194,7 +194,7 @@ Explore the projects to see detailed documentation, code, and results. Each proj
 - **Description**: Handle missing values, outliers, and inconsistencies in a financial dataset. Document each step of the cleaning process.
 
 ### 2. Exploratory Data Analysis (EDA)
-#### Project: [EDA on `mtcars` dataset](https://github.com/masud90/data_science_portfolio/blob/main/02%20Exploratory%20Data%20Analysis%20(EDA)/R/EDA%20on%20mtcars%20dataset/EDA-on-mtcars-dataset-using-R.pdf)
+#### Project: [EDA on `mtcars` dataset](https://github.com/masud90/data_science_portfolio/blob/main/02%20Exploratory%20Data%20Analysis%20(EDA)/R/EDA%20on%20mtcars%20dataset/EDA%20on%20mtcars%20dataset%20using%20R.md)
 - **Objective**: Perform exploratory data analysis on retail data.
 - **Tools**: R, ggplot2, dplyr
 - **Description**: Analyze car data to find correlations, and insights. Visualize distributions, relationships, and summary statistics.
