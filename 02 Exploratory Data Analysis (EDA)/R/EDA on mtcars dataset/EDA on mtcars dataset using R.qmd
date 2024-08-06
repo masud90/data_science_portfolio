@@ -1,15 +1,11 @@
 ---
 title: "EDA and Data Cleaning on the `mtcars` Dataset"
-author: "Masud Rahman"
-thanks: https://masud90.github.io/, https://x.com/masudtweets/
-date: "2024-08-03"
+author: "[Masud Rahman](https://masud90.github.io/)"
 format:
-  pdf:
-    toc: true
-    lof: true
-    number-sections: true
-    documentclass: scrartcl
-    papersize: a4
+  gfm:
+     html-math-method: 
+       method: webtex
+       url: https://latex.codecogs.com/png.image?%5Cbg_black&space;
 ---
 
 ```{r setup, include=FALSE}
@@ -23,6 +19,10 @@ library(tidyr)
 library(GGally)
 library(reshape2)
 ```
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/masud90/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/Masud90)
+[![Twitter Follow](https://img.shields.io/twitter/follow/masudtweets?style=social&logo=twitter)](https://twitter.com/masudtweets)
 
 # Introduction
 
